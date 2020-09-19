@@ -72,6 +72,26 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+#two .container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#two .container #headFlex{
+	width: 100%;
+	
+}
+#two .container #item1{
+	flex-grow: .5;
+	
+}
+
+#two .container #item2{
+	flex-grow: 1;
+}
+
+
 /* Basic */
 
 	html {
